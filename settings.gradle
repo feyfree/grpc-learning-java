@@ -1,0 +1,5 @@
+include 'ch02:client'
+findProject(':ch02:client')?.name = 'client'
+include 'ch02:server'
+findProject(':ch02:server')?.name = 'server'
+
